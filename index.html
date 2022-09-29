@@ -1,52 +1,59 @@
-.grid-container {
-    display: inline-grid;
-    grid-template-columns: auto auto auto;
-    background-color: #092e11;
-    padding: 10px;
-  }
-  
-  .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 50px;
-    font-size: 35px;
-    text-align: center;
-  }
+<html>
+    <link rel="stylesheet" href="styles.css">
+    <head>
+        <body>
+            <div class="header">
+                <h1>Jon's Porfolio</h1>
+                <p>This is where I post my projects as I learn to code!</p></div>
 
-.header {
-    padding: 60px;
-    text-align: center;
-    background: #05642b;
-    color: white;
-    font-size: 30px;
-  }
+             <div class="grid-container">
 
-  .button {
-    border: none;
-    color: rgb(25, 126, 50);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 6px 4px;
-    cursor: pointer;
-  }
+                <div class="grid-item"> 
+                    <button class= button type="button" onclick="alert('You are on the Home Page already!')"> Home </button>
+                    <button class= button type="button" onclick="https://jonfamurewa.github.io/Learning-Projects/"> Projects Page </button>   
+                </div>
 
-  button:hover {
-    background-color: rgb(6, 35, 10);
-  }
+                    <div class="grid-item">
+                        <img style = "padding: 25px"; src ="./bioPic.JPG" width="400" height="400" /> 
+                         <h4> GitHub Username: jonFamurewa</h4>
+                         <a href="https://www.linkedin.com/in/jon-famurewa-817372135/">My LinkedIn Page</a>
+                     </div>
 
-  a:link, a:visited {
-    background-color: #06481a;
-    color: white;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-  
-  a:hover, a:active {
-    background-color: rgb(56, 114, 64);
-  }
-  
+                    <div class="grid-item">
+                        <h3> About Me</h3>
+                        <P> I decided to take this course so that I could learn how to code. I want to use the skills that I learn from this course to 
+                            build sites, apps, and to learn computational thinking. Coding and web development are exciting to me because of the many different oppotunities 
+                            that it offers. Once you know the basics you can apply it to many different tasks and specialize your code for your task.</P>
+                     </div>
+
+                     <div class="grid-item">
+                          <iframe width="420" height="315"
+                            src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            </iframe>
+                    </div>
+
+                     <div class="grid-item">
+                        <h4> My Projects</h4>
+                        <ol>
+                        <li><button class= button type="button" onclick="window.location.href= 'https://jonfamurewa.github.io/Eyes/';"> Eyes Exercise </button> </li>
+                        <li><button class= button type="button" onclick="window.location.href= 'https://jonfamurewa.github.io/Real-Time-Bus-Tracking/';"> Bus Real-Time-Bus-Tracking Exercise </button></li>
+                        <li><button class= button type="button" onclick="window.location.href= 'https://jonfamurewa.github.io/PacMen-Exercise/';"> PacMen PacMen-Exercise </button></li>
+                        </ol>
+                    </div>
+
+                    <div class="grid-item">  
+                            <h3> Contact Me</h3>
+                            <P> The best way to contact me is via email. My email is j.famurewa@gmail.com</P>
+                    </div>
+
+             
+              
+                
+            </head>
+          
+            </body>
+            
+
+
+
+</html>
