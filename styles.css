@@ -1,0 +1,35 @@
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: #092e11;
+    padding: 10px;
+  }
+  
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 50px;
+    font-size: 35px;
+    text-align: center;
+  }
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #05642b;
+    color: white;
+    font-size: 30px;
+  }
+
+  .button {
+    border: none;
+    color: rgb(25, 126, 50);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer;
+  }
+  
